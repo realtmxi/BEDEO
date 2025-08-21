@@ -1,0 +1,84 @@
+{
+  "organization_details": {
+    "initiative": "Federal Lands Initiative",
+    "lead_agency": "Canada Mortgage and Housing Corporation (CMHC)",
+    "partner_agencies": [
+      "Public Service and Procurement Canada (PSPC)",
+      "Housing, Infrastructure and Communities Canada (HICC)",
+      "Canada Lands Company (CLC)"
+    ],
+    "fund_budget": {
+      "total_fli_fund": "CA$318.9 million",
+      "budget_2024": "CA$112.6 million over 5 years starting 2024‑25",
+      "additional_funds": "CA$4.3 million in future years",
+      "initial_fli_fund": "CA$200 million"
+    }
+  },
+  "partnership_opportunities": [
+    {
+      "description": "Transfer or lease of surplus federal lands and buildings at discounted or no cost.",
+      "evaluation_criteria": [
+        "Accessibility",
+        "Affordability",
+        "Environmental efficiency",
+        "Community need"
+      ],
+      "applicant_types": [
+        "Community housing organizations",
+        "Non‑profit organizations or registered charities",
+        "Co‑operative housing organizations",
+        "Municipal, provincial, and territorial governments and agencies",
+        "Indigenous governments and organizations (including Tribal Councils)",
+        "For‑profit organizations"
+      ],
+      "outcome_requirements": [
+        "Maintained as affordable housing for no less than 25 years (or as specified in agreement)."
+      ]
+    }
+  ],
+  "real_estate_assets": [
+    {
+      "site_name": "Currie property – Phase 12B Dieppe Avenue SW",
+      "land_area": "0.4 hectares (0.9 acres)",
+      "community_masterplan_size": "78 hectares (194 acres)",
+      "planned_use_at_full_development": {
+        "housing_units": "Approximately 5,700 units of various types",
+        "retail_space": "250,000 sq ft (23,226 m²)",
+        "office_space": "615,000 sq ft (57,135 m²)",
+        "parks_and_open_space": "23 acres (9.3 hectares)"
+      },
+      "current_project": {
+        "developer": "Onward Homes (formerly Horizon Housing)",
+        "funding_received": "Just over CA$3.5 million",
+        "planned_units": "72 rental units, with 30% designated for women and children (affordable)"
+      },
+      "zoning_status": "Zoned and ready for development (six‑storey condominium apartment building with 99 units, 30% affordable)",
+      "heritage_context": "Part of a redeveloped former Canadian Forces Base, integrating heritage architecture and landscapes"
+    }
+  ],
+  "location_information": {
+    "city": "Calgary",
+    "province": "Alberta",
+    "neighborhood": "Currie (southwest Calgary), immediately west of Crowchild Trail SW, near Mount Royal University",
+    "context": "Part of a walkable, mixed‑use, sustainable 'complete community' designed for urban living"
+  },
+  "partnership_requirements_and_criteria": {
+    "eligibility": [
+      "Community housing organizations",
+      "Non‑profit organizations/charities",
+      "Co‑operative housing organizations",
+      "Government entities (municipal/provincial/territorial and agencies)",
+      "Indigenous governments and organizations",
+      "For‑profit organizations"
+    ],
+    "proposal_evaluation": [
+      "Accessibility standards",
+      "Affordability targets",
+      "Environmental efficiency",
+      "Community need/demand"
+    ],
+    "social_outcomes_linked_to_cost": "Discount or no-cost transfer depending on level of social outcomes",
+    "affordability_maintenance": "Housing must remain affordable for at least 25 years (or as specified)",
+    "affordable_housing_quota": "Example: minimum 30% of units designated as affordable (e.g., for women and children)"
+  }
+}

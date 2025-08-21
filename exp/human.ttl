@@ -1,0 +1,33 @@
+# The organization offering the opportunity
+bedeo:organization_CanadaLandsCompany
+    a bedeo:Organization ;
+    bedeo:has_legal_name "Canada Lands Company"^^xsd:string ;
+    bedeo:has_opportunity bedeo:opportunity_CurrieDevelopment .
+
+# The development opportunity
+bedeo:opportunity_CurrieDevelopment
+    a bedeo:PpartnershipOpportunity ;
+    rdfs:label "Development opportunity for 99+ units in Currie, Calgary" ;
+    bedeo:has_status "Proposals under evaluation"^^xsd:string ;
+    bedeo:has_real_estate_asset bedeo:realEstateAsset_CurrieLot ;
+    
+# The real estate asset (the vacant lot)
+bedeo:realEstateAsset_CurrieLot
+    a bedeo:real_estate_asset ;
+    rdfs:label "Currie Lot" ;
+    bedeo:has_identifier "CLC_LH_AB_CGY_L002"^^xsd:string ;
+    bedeo:has_surface_area_in_hectares "0.4"^^xsd:decimal ;
+    bedeo:has_improvements "None, vacant lot"^^xsd:string ;
+    bedeo:is_vacant "true"^^xsd:boolean ;
+    bedeo:has_municipal_service_description "Full municipal services available"^^xsd:string ;
+    bedeo:has_address bedeo:address_CurrieLot ;
+    bedeo:has_zoning bedeo:zone_DC163D2016 .
+
+# The address for the lot
+bedeo:address_CurrieLot
+    a bedeo:Address ;
+    rdfs:label "Currie Lot Address" ;
+    bedeo:has_string_representation "Approximately Phase 12B- Dieppe Avenue SW and Quesnay Wood Dr SW"^^xsd:string ;
+    bedeo:has_locality_name "Calgary"^^xsd:string ;
+    bedeo:has_province_name "Alberta"^^xsd:string ;
+    bedeo:has_country_name "Canada"^^xsd:string .

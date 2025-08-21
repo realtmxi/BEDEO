@@ -1,0 +1,34 @@
+@prefix bedeo: <https://csse.utoronto.ca/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# The organization offering the opportunity  
+bedeo:organization_CityOfToronto
+    a bedeo:Organization ;
+    bedeo:has_legal_name "City of Toronto"^^xsd:string ;
+    bedeo:has_opportunity bedeo:opportunity_BrockDevelopment .
+
+# The development opportunity
+bedeo:opportunity_BrockDevelopment
+    a bedeo:PpartnershipOpportunity ;
+    rdfs:label "Federal Lands Development Opportunity" ;
+    bedeo:has_status "Active"^^xsd:string ;
+    bedeo:has_real_estate_asset bedeo:realEstateAsset_Brock .
+
+# The real estate asset
+bedeo:realEstateAsset_Brock
+    a bedeo:real_estate_asset ;
+    rdfs:label "11 Brock Avenue" ;
+    bedeo:has_identifier "CLC_LH_AB_CGY_L002"^^xsd:string ;
+    bedeo:has_surface_area_in_hectares "0.4"^^xsd:decimal ;
+    bedeo:has_address bedeo:address_Brock .
+
+# The address for the asset
+bedeo:address_Brock
+    a bedeo:Address ;
+    rdfs:label "11 Brock Avenue Address" ;
+    bedeo:has_locality_name "Toronto"^^xsd:string ;
+    bedeo:has_province_name "Ontario"^^xsd:string ;
+    bedeo:has_country_name "Canada"^^xsd:string .
+
+
